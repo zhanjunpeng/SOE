@@ -1,1 +1,0 @@
-from folder: Dist_reconfigrature_decrease_fast
