@@ -5,3 +5,4 @@ Before running the code, the path to the MatPower toolbox needs to be added. The
 
 The main code is 'decrese_reconfig_xxx_tabu.m' where 'xxx' is 33, 84, 119, 136, and 417 for the five test systems used in the paper. The main code for the brute-force search method used in the paper is 'brute_force_case33.m'
 
+A Matlab build-in function 'graph' is used in this code. Please test whether your Matlab has this function or not. For the test, you can run this code 'G = graph([1 1], [2 3])' in your Matlab Command Window. You will obtain a returned value for G if your Matlab has the function 'graph'. Otherwise, you will encounter an error "Undefined function 'graph' for input arguments". If you encounter this error, please install a higher version of Matlab or install a toolbox that has the function 'graph'. Please refer to this link (https://www.mathworks.com/help/matlab/ref/graph.html) for more detailed information of the function 'graph'.
